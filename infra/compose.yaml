@@ -1,0 +1,7 @@
+services: #  serviços
+  database: #  nome do serviço
+    image: "postgres:17.2-alpine3.21" #  imagem do postgres
+    environment: #  variáveis de ambiente
+      POSTGRES_PASSWORD: "postgres" #  é obrigatório.
+    ports:
+      - "5432:5432" #  porta do postgres
