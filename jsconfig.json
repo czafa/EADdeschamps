@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "baseUrl": "." // pasta raiz onde o arquivo jsconfig.json está localizado e tudo que for configurado será dali pra frente.
+  }
+}
